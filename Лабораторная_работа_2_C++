@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int sum = 0;
+
+    for (int i = 3; i < 200; i += 3)
+    {
+        sum += i;
+    }
+
+    cout << "Sum of positive multiples of 3 below 200 = "
+         << sum << endl;
+
+    return 0;
+}
